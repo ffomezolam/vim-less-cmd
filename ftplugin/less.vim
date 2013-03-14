@@ -36,7 +36,7 @@ command! -nargs=0 -bar LessCompileAll call s:Less_Compile_All()
 command! -nargs=0 -bar LessCompile call s:Less_Compile()
 
 if g:less_autocompile_all
-    :autocmd BufWritePost *.less LessCompileAll()
+    :autocmd BufWritePost *.less LessCompileAll
 else
-    :autocmd BufWritePost *.less LessCompile()
+    :autocmd BufWritePost *.less LessCompile
 endif
