@@ -7,7 +7,7 @@ if !exists("g:less_command")
 endif
 
 if !exists("g:less_compress")
-    let g:less_compress = 1
+    let g:less_compress = 0
 endif
 
 if !exists("g:less_compress_to")
